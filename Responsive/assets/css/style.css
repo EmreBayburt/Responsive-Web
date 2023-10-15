@@ -1,0 +1,1261 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+a{
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+h1{
+    font-size: 72px;
+    line-height: 80px;
+}
+h2{
+    font-size: 56px;
+    line-height: 64px;
+}
+h3{
+    font-size: 40px;
+    line-height: 48px;
+}
+h4{
+    font-size: 24px;
+    line-height: 32px;
+}
+h5{
+    font-size: 16px;
+    line-height: 24px;
+}
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+/* mobile css */
+
+/* header start */
+.outerContainer{
+    background-color: #434ccc;
+}
+.container{
+    padding: 16px 14px;
+    overflow-x: hidden;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoDesktop{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.logoDesktop h3{
+    margin-right: auto;
+}
+.signUp{
+    margin-left: 40px;
+}
+.nav a{
+    color: #fff;
+}
+.signUp{
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px 55px;
+    border-radius: 5px;
+}
+/* header end */
+
+/* hero section adi container start */
+.hero{
+    background-color: #434ccc;
+}
+.heroText h5{
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+}
+.heroText h2{
+    width: 12ch;
+    padding-bottom: 20px;
+}
+.heroText p{
+    width: 32ch;
+    padding-bottom: 32px;
+}
+.exploreButton{
+    background-color: #f1b505;
+    color: #fff;
+    padding: 12px 55px;
+    border-radius: 5px;
+}
+.heroImg img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/* hero adi container end */
+
+/* vivendo start */
+.vivendo{
+    background-color: #ffdd78;
+}
+.vivendoText h3{
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.vivendoText p{
+    color: #000;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+.textCenter{
+    text-align: center;
+}
+.card h4{
+    color: #000;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.card p{
+    color: #000;
+    opacity: 0.5;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.cizgi{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 18px;
+    margin-left: 20px;
+}
+.learnMore{
+    color: #000;
+    margin-left: 20px;
+}
+.cards{
+    margin-bottom: 30px;
+}
+.card{
+    background-color: #fff;
+    box-shadow: 4px 8px 20px;
+    color: #000;
+    width: 326px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.cardImg{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 34px;
+    padding-bottom: 60px;
+}
+/* vivendo end */
+
+/* postea start */
+.postea{
+    background-color: #f2f2f2;
+}
+.posteaText{
+    text-align: center;
+}
+.posteaText h5{
+    color: #000;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.posteaText h3{
+    margin-bottom: 20px;
+}
+.posteaText{
+    margin-top: 60px;
+    color: #000;
+}
+.nemore img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nemoreText{
+    color: #000;
+}
+.nemoreText h4{
+    width: 18ch;
+    margin-bottom: 20px;
+}
+.nemoreText p{
+    width: 32ch;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.nemoreText a{
+    color: #000;
+}
+.doloremText{
+    color: #000;
+}
+.dolorem img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.doloremText h4{
+    width: 22ch;
+    margin-bottom: 20px;
+}
+.doloremText p{
+    width: 32ch;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.dolorem{
+    margin-bottom: 60px;
+}
+.doloremText a{
+    color: #000;
+}
+/* postea end */
+
+/* fastidii start */
+.fastidii{
+    height: 628px;
+}
+.fastidiiItem{
+    width: 376px;
+    margin: 0 auto;
+}
+.fastidiiText{
+    text-align: center;
+}
+.fastidiiText h5{
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+    opacity: 0.6;
+}
+.fastidiiText h3{
+    margin-bottom: 30px;
+}
+.fastidiiText p{
+    width: 32ch;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+}
+.commune{
+    background-image: url('..//img/jpg/commune.jpg');
+    margin-top: 30px;
+    width: 346px;
+    height: 512px;
+    position: absolute;
+}
+.communeText{
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.communeText h6{
+    font-family: 'DM Sans', sans-serif;
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+.communeText h3{
+    margin-bottom: 30px;
+}
+.readMore{
+    border: 1px solid rgba(255, 254, 254, 0.4);
+    padding: 12px 42px;
+    border-radius: 5px;
+    color: #fff;
+}
+.communeCard{
+    background-color: #f2f2f2;
+    margin-top: 400px;
+}
+.communeCards{
+    padding-bottom: 48px;
+}
+.heykelMobile{
+    background-image: url('..//img/png/heykelMobile.png');
+    width: 346px;
+    margin-top: 130px;
+    height: 512px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kopekMobile{
+    background-image: url('..//img/png/kopekMobile.png');
+    width: 346px;
+    height: 512px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.communeCard h6{
+    font-family: 'DM Sans', sans-serif;
+    opacity: 0.7;
+    padding-top: 30px;
+    margin-bottom: 16px;
+}
+.communeCard h4{
+    width: 14ch;
+    margin-bottom: 24px;
+}
+.heykelText{
+    margin-left: 30px;
+}
+.kopekText{
+    margin-left: 30px;
+}
+.communeCard img{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 14px 14px;
+    border-radius: 5px;
+}
+.worksMobile{
+    width: 375px;
+    margin: 0 auto;
+    padding-left: 96px;
+
+}
+.worksMobile a{
+    color: #434ccc;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 12px 50px;
+}
+/* fastidii end */
+
+/* duo start */
+.duo{
+    margin-top: 1200px;
+    padding-top: 80px;
+    background-color: #f2f2f2;
+}
+.duoItem{
+    width: 375px;
+    margin: 0 auto;
+}
+.duoText{
+    color: #000;
+}
+.duoText h3{
+    width: 18ch;
+    margin-bottom: 30px;
+}
+.duoText p{
+    width: 28ch;
+    margin-bottom: 30px;
+}
+.duoCards h4{
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+.duoCard p{
+    opacity: 0.5;
+    width: 32ch;
+}
+/* duo end */
+
+/* unnum start */
+.unnumText{
+    width: 375px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 14px 14px;
+    padding-top: 62px;
+}
+.unnumText h5{
+    font-family: 'DM Sans', sans-serif;
+    opacity: 0.5;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.unnumText h3{
+    margin-bottom: 30px;
+    width: 14ch;
+}
+.unnumText p{
+    margin-bottom: 24px;
+    opacity: 0.7;
+    width: 26ch;
+}
+.unnumImgMobile img{
+    width: 375px;
+    margin: 0 auto;
+}
+/* unnum end */
+
+/* scriptorem grid start */
+.scriptorem{
+    background-color: #f2f2f2;
+}
+.scriptText h6{
+    color: #000;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.scriptText h2{
+    color: #000;
+    margin-bottom: 30px;
+}
+.scriptText p{
+    color: #000;
+    opacity: 0.7;
+}
+.scriptCards h4{
+    color: #000;
+}
+.scriptoremItem{
+    padding-top: 46px;
+    margin-bottom: 30px;
+}
+.scriptoremItem h5{
+    color: #000;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.scriptoremItem h2{
+    color: #000;
+    margin-bottom: 30px;
+}
+.scriptoremItem p{
+    color: #000;
+}
+.scriptoremCard{
+    margin-top: 54px;
+}
+.scriptoremCards{
+    background-color: #fff;
+    width: 346px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 34px;
+    box-shadow: 4px 8px 20px #000;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.scripCardImg{
+    width: 482px;
+    margin-left: 22px;
+}
+.scriptoremCards h4{
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.scriptoremCards p{
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    opacity: 0.5;
+}
+.scriptCizgi{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.scriptMedia{
+    display: flex;
+    gap: 15px;
+    margin-right: 24px;
+}
+.scriptGridAlt{
+    padding: 16px 16px;
+    width: 375px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.scriptCardsAlt{
+    display: flex;
+    padding: 10px;
+    gap: 35px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+/* scriptorem grid end */
+
+/* dicta start */
+.dicta{
+    margin-bottom: 60px;
+}
+.dictaItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 60px;
+}
+.arrows{
+    display: grid;
+    gap: 10px;
+}
+.leftArrow{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 12px 14px;
+    border-radius: 5px;
+}
+.rightArrow{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 12px 14px;
+    border-radius: 5px;
+}
+.dictaTextMobile{
+    margin-left: 78px;
+}
+.dictaTextMobile h5{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    opacity: 0.5;
+    letter-spacing: 3px;
+}
+.dictaTextMobile h4{
+    padding-bottom: 26px;
+    opacity: 0.9;
+}
+.dictaTextMobile p{
+    padding-bottom: 8px;
+    opacity: 0.5;
+}
+.dictaTextMobile span{
+    opacity: 0.5;
+}
+/* dicta end */
+
+/* contentiones start */
+.contentiones{
+    background-color: #f2f2f2;
+    padding-top: 60px;
+}
+.contentionesItem{
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentionesMedia{
+    margin-bottom: 60px;
+}
+.contentionesText{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.contentionesText h4{
+    color: #000;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+.contentionesText h3{
+    color: #000;
+    margin-bottom: 30px;
+}
+.contentionesText p{
+    color: #000;
+}
+.contentionesMedia a{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.contactUs{
+    margin-left: 124px;
+    padding-bottom: 60px;
+}
+.contactButton{
+    color: #434ccc;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+.contentionesCizgi{
+    border: 1px solid rgba(0,0,0,0.1);
+}
+/* .contentiones end */
+
+/* novum start */
+.novum{
+    background-color: #f2f2f2;
+    padding-top: 46px;
+}
+.novumText{
+    width: 346px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+}
+.novumText h5{
+    color: #000;
+    letter-spacing: 3px;
+}
+.novumText h3{
+    color: #000;
+}
+.novumCards{
+    margin-bottom: 86px;
+}
+.novumCard{
+    width: 346px;
+    height: 526px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    background-color: #fff;
+}
+.novumCards img{
+    padding-top: 32px;
+    padding-bottom: 14px;
+    margin-left: 32px;
+}
+.novumCards p{
+    color: #000;
+    margin-left: 32px;
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+.novumCards h4{
+    color: #000;
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
+.novumCizgi{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 18px;
+    margin-left: 20px;
+}
+.novumLearnMore{
+    margin-left: 32px;
+    color: #000;
+    margin-bottom: 60px;
+}
+.novumReadAll{
+    width: 346px;
+    margin-left: auto;
+    margin-right:  auto;
+    padding-top: 50px;
+    padding-left: 88px;
+}
+.readAll{
+    color: #434ccc;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 14px 54px;
+}
+.novumAltCizgi{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* novum end */
+
+/* viderer start */
+.viderer{
+    padding-top: 60px;
+    background-color: #f2f2f2;
+}
+.vidererItem{
+    width: 376px;
+    margin: 0 auto;
+}
+.vidererText{
+    color: #000;
+}
+.vidererText h5{
+    letter-spacing: 3px;
+    margin-bottom: 32px;
+}
+.vidererText h4{
+    margin-bottom: 32px;
+}
+.vidererMedia{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+.vidererMedia img{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.vidererMedia a{
+    color: #000;
+    opacity: 0.5;
+}
+.vidererImg img{
+    width: 346px;
+    height: 348px;
+    margin-bottom: 20px;
+}
+
+/* mei start */
+.mei{
+    background-color:  #ffdd78fd;
+}
+.meiText{
+    color: #000;
+}
+.meiText h5{
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+.meiText h3{
+    margin-bottom: 18px;
+}
+.meiText p{
+    margin-bottom: 18px;
+}
+.meiText input{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 48px;
+}
+input{
+    padding-left: 16px;
+}
+.subscribe{
+    color: #fff;
+    background-color: #434ccc;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 12px 50px;
+}
+/* mei end */
+
+/* location start */
+.location{
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+.locationItem img{
+    position: absolute;
+}
+.locationImg{
+    width: 376px;
+    margin: 0 auto;
+}
+.konum img{
+    margin: 0 auto;
+    position: relative;
+    margin-top: 190px;
+}
+.locationText{
+    padding-top: 240px;
+}
+.locationText input{
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 5px;
+}
+.locationMessage input{
+    height: 124px;
+    margin-bottom: 48px;
+}
+.locationMessage input::placeholder{
+    position: relative;
+    top: -38px;
+}
+.locationText h5{
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+.submit{
+    color: #fff;
+    background-color: #f1b505;
+    padding: 12px 56px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+/* location end */
+
+/* footer start */
+.footerLogo{
+    background-color: #f2f2f2;
+}
+.footerItem{
+    padding-top: 72px;
+}
+.footerItem a{
+    margin-bottom: 24px;
+    font-family: 'DM Serif Display', serif;
+    color: #000;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.footerItem p{
+    color: #000;
+    margin-top: 24px;
+    opacity: 0.5;
+}
+.footerMedia{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 80px;
+    margin-top: 24px;
+}
+.footerOrta{
+    display: flex;
+    gap: 120px;
+    margin-top: 30px;
+}
+.footerOrta h4{
+    color: #000;
+}
+.footerText p{
+    margin-top: 70px;
+}
+.footerUp{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.footerUp img{
+    width: 76px;
+    height: 64px;
+    margin-top: 86px;
+}
+.footerUp p{
+    width: 24ch;
+    padding-top: 18px;
+}
+.footerDown{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 56px;
+}
+.footerDown img{
+    width: 76px;
+    height: 64px;
+    margin-top: 86px;
+}
+.footerDown p{
+    padding-top: 20px;
+}
+.footerText h5{
+    color: #000;
+}
+.footerCizgi{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.footerEnd{
+    padding-top: 60px;
+}
+.footerEnd p{
+    color: #000;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+/* mobile css end */
+
+/* media desktop start */
+@media(min-width: 1170px){
+    /* container class start */
+    .container{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .heroItem{
+        display: flex;
+    }
+    .heroText{
+        margin-top: 40px;
+    }
+    .heroText h5{
+        padding-bottom: 20px;
+    }
+    .heroText h1{
+        width: 14ch;
+        padding-bottom: 20px;
+    }
+    .heroText p{
+        width: 30ch;
+        padding-bottom: 20px;
+    }
+    /* container class end */
+
+    /* vivendo start */
+    .cards{
+        display: flex;
+        gap: 40px;
+    }
+    .cardImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 210px;
+        margin-left: 24px;
+    }
+    /* vivendo end */
+    
+    /* postea start */
+    .nemoreItem{
+        display: flex;
+        align-items: center;
+    }
+    .doloremItem{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    /* postea end */
+
+    /* fastidii start */
+    .fastidiiText p{
+        width: 42ch;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.7;
+    }
+    .commune{
+        background-image: url('../img/jpg/communeDesktop.jpg');
+        width: 1140px;
+        height: 512px;
+        position: absolute;
+    }
+    .communeCards{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .heykelMobile{
+        background-image: url('../img/png/heykel-desktop.png');
+        width: 570px;
+        height: 512px;
+    }
+    .kopekMobile{
+        background-image: url('../img/png/kopek-desktop.png');
+        width: 570px;
+        height: 512px;
+        margin-top: 130px;
+    }
+    .worksDesktop{
+        color: #434ccc;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        padding: 12px 50px;
+        margin-left: 490px;
+    }
+    /* fastidii end */
+
+    /* duo start */
+    .duo{
+        margin-top: 684px;
+    }
+    .duoItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .duoText p{
+        width: 42ch;
+    }
+    .duoCard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .duoHeight{
+        margin-top: 10px;
+    }
+    .duoCards p{
+        width: 26ch;
+    }
+    /* duo end */
+
+    /* unnumDesktop start */
+    .unnumDesktop{
+        width: 1170px;
+        margin: 0 auto;
+        height: 656px;
+    }
+    .unnumItemDesktop{
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+    .unnumTextDesktop h5{
+        font-family: 'DM Sans', sans-serif;
+        opacity: 0.5;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+    .unnumTextDesktop h3{
+        margin-bottom: 30px;
+        width: 14ch;
+    }
+    .unnumTextDesktop p{
+        margin-bottom: 24px;
+        opacity: 0.7;
+        width: 36ch;
+    }
+    /* unnumDesktop end */
+
+    /* scriptorem start */
+    .scriptoremCard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+        padding-bottom: 80px;
+    }
+    .cardImg{
+        margin-top: 40px;
+        width: 284px;
+    }
+    .scriptGrid{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .scriptCards{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        padding: 10px;
+        gap: 35px;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    /* scriptorem end */
+
+    /* dicta */
+    .dictaItem{
+        margin-top: 60px;
+        padding-bottom: 60px;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    .dictaTextDesktop h5{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        opacity: 0.5;
+        letter-spacing: 3px;
+    }
+    .dictaTextDesktop h4{
+        padding-bottom: 26px;
+        opacity: 0.8;
+        width: 55ch;
+    }
+    .dictaTextDesktop p{
+        padding-bottom: 8px;
+        opacity: 0.5;
+    }
+    .dictaTextDesktop span{
+        opacity: 0.5;
+    }
+    /* dicta end */
+    /* contentiones start */
+    .contentionesMedia{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 14px 16px;
+    }
+    .contactUs a{
+        margin-left: 396px;
+    }
+    /* contentiones end */
+
+    /* novum start */
+    .novumDesktop{
+        background-color: #f2f2f2;
+        padding-top: 46px;
+    }
+    .novumTextDesktop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .novumItem h5{
+        color: #000;
+        margin-bottom: 22px;
+    }
+    .novumTextDesktop h3{
+        color: #000;
+    }
+    .novumCards{
+        display: flex;
+        gap: 20px;
+    }
+    .novumCard{
+        background-color: #fff;
+        width: 720px;
+        height: 480px;
+        box-shadow: 2px 2px 20px #000;
+        border-radius: 5px;
+    }
+    .readAll{
+        color: #434ccc;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+    }
+    /* novum end */
+    /* viderer start */
+    .viderer{
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+    .vidererItem{
+        display: flex;
+    }
+    .vidererImg img{
+        width: 270px;
+        height: 272px;
+    }
+    .vidererImg{
+        display: flex;
+        gap: 30px;
+    }
+    /* viderer end */
+
+    /* mei start */
+    .meiItem{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .meiText h3{
+        width: 16ch;
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .meiText p{
+        width: 34ch;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .meiItem input{
+        display: inline-block;
+        width: 270px;
+        margin-right: 30px;
+    }
+    .meiItem img{
+        width: 480px;
+    }
+    /* mei end */
+
+    /* location start */
+    .location{
+        margin-top: -296px;
+    }
+    .locationItem{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .konum img{
+        margin-top: 476px;
+        margin-right: 54px;
+    }
+    .locationText h3{
+        margin-bottom: 20px;
+    }
+    .locationText{
+        margin-top: 120px;
+    }
+    .locationText h5{
+        margin-right: 420px;
+    }
+    .locationText input{
+        width: 80%;
+    }
+    /* location end */
+
+    /* footer start */
+    .footerItem{
+        display: flex;
+        align-items: center;
+        gap: 130px;
+    }
+    .footerItemText{
+        margin-top: 56px;
+    }
+    .footerItemText p{
+        width: 26ch;
+    }
+    .footerEnd{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* footer end */
+    
+    /* none bolumu start */
+    .unnumMobile{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .heroText h2{
+        display: none;
+    }
+    .worksMobile{
+        display: none;
+    }
+    .dictaTextMobile{
+        display: none;
+    }
+    .novum{
+        display: none;
+    }
+    .locationImg{
+        display: none;
+    }
+    /* none bolumu end */
+}
+/* media desktop end */
+
+/* media mobile start */
+@media(max-width:1169px){
+    .logoDesktop{
+        display: none;
+    }
+    .heroText h1{
+        display: none;
+    }
+    .worksDesktop{
+        display: none;
+    }
+    .unnumDesktop{
+        display: none;
+    }
+    .dictaTextDesktop{
+        display: none;
+    }
+    .novumDesktop{
+        display: none;
+    }
+    .locationDesktop{
+        display: none;
+    }
+}
+/* media mobile end */
